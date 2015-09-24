@@ -6,6 +6,7 @@ import scipy.io as sio
 from multiprocessing import Pool
 import random
 
+#Author : Narayan Subramaniyam / ELT / BioMediTech / TUT. August 2015
 #run the script as python example_script_lorenz.py arg1 arg2
 #arg1 = length of data - 200,500,1000,5000 or 10000 or whatever
 #arg2 recurrence rate - 0.01,0.02,0.03,0.04 or 0.05 or whatever
