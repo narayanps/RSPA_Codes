@@ -3,7 +3,8 @@ import pylab
 import random
 import scipy.io as sio
 
-
+#Author : Narayan Subramaniyam / ELT / BioMediTech / TUT. August 2015
+# use the script below to generate realizations from a Lorenz system
 def generate(data_length, odes, state, parameters):
     data = numpy.zeros([state.shape[0], data_length],dtype='float32')
 
