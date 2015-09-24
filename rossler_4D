@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import random
 import scipy.io as sio
 
-
+#Author : Narayan Subramaniyam / ELT / BioMediTech / TUT. August 2015
+# use the script below to generate realizations from a 4D Rossler system
 
 def generate(data_length, odes, state, parameters):
     data = numpy.zeros([state.shape[0], data_length])
